@@ -1,0 +1,16 @@
+cdn
+npm
+dependencies
+dev dependencies
+package.json
+package-lock.json
+browserlist
+parcel
+bundler
+
+__________________________________________
+createElement/createRoot /render
+jsx 
+Babel
+functional & class component
+component compositiion -> composition of multiple component is single component

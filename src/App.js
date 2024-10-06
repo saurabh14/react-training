@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
+  const TitleNew = () => <h1 className='saurabh'>testing JSX</h1>
+  const saurabh = <h1>saurabh element</h1>
   return (
     <div className="App">
       <header className="App-header">
@@ -10,6 +13,7 @@ function App() {
           Saurabh is testing
           <div>Testingnpm</div>
           babli
+          {saurabh}
         </p>
         <a
           className="App-link"
@@ -19,9 +23,12 @@ function App() {
         >
           Learn React
         </a>
+        <TitleNew />
       </header>
     </div>
+    
   );
+
 }
 
 export default App;
